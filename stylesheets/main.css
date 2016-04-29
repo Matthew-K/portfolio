@@ -1,0 +1,61 @@
+h2{
+
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.project{
+	margin-bottom: 30px;
+	background-color: white;
+}
+
+
+
+.description{
+	margin: 0 39.5px 20px 0 ;
+}
+
+.introHeight{
+	height: 390px;
+}
+
+.centerThis{
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+.container{
+	/*width: 960px;*/
+}
+
+img{
+	margin: 0 auto;
+	display: block;
+	max-width: 100%;
+}
+
+.intro{
+	background-color: #B1B1B1;
+	padding: 50px 0;
+	font-size: 1.5em;
+}
+
+#projects{
+	background-color: #B1B1B1;
+}
+
+#projects h1{
+	padding: 30px 0;
+	margin: 0;
+}
+
+#skills{
+	padding: 40px 0;
+	/*background-color: red;*/
+}
