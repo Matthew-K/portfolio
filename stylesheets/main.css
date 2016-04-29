@@ -48,14 +48,47 @@ img{
 
 #projects{
 	background-color: #B1B1B1;
+	margin-bottom: 30px;
+	padding: 20px 0;
+	font-size: 1.1em;
 }
 
 #projects h1{
-	padding: 30px 0;
-	margin: 0;
+	margin: 15px 0;
+}
+
+.project{
+	font-size: 1.1em;
+}
+
+.skillShowcase li{
+	background: #D4D4D4;
+	font-size: 1em;
+	margin: 5px 2px;
+	padding: 5px 10px;
+	border-radius: 5px;
 }
 
 #skills{
 	padding: 40px 0;
 	/*background-color: red;*/
+}
+
+#skills li{
+	background: #D4D4D4;
+	font-size: 1.5em;
+	margin: 5px 2px;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+footer {
+   background-color:#B1B1B1;
+   min-height: 50px;
+   text-align: center;
+}
+
+#contact{
+	padding: 20px 0;
+	border-top: 5px solid #B1B1B1 ;
 }
