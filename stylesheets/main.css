@@ -1,38 +1,7 @@
-h2{
-
-}
-
 .navbar {
     margin-bottom: 0;
 }
 
-.project{
-	margin-bottom: 30px;
-	background-color: white;
-}
-
-
-
-.description{
-	margin: 0 39.5px 20px 0 ;
-}
-
-.introHeight{
-	height: 390px;
-}
-
-.centerThis{
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-
-.container{
-	/*width: 960px;*/
-}
 
 img{
 	margin: 0 auto;
@@ -40,24 +9,38 @@ img{
 	max-width: 100%;
 }
 
-.intro{
+#intro{
 	background-color: #B1B1B1;
 	padding: 50px 0;
 	font-size: 1.5em;
 }
 
-#projects{
+#skills{
+	padding: 40px 0;
+}
+
+#skills li{
+	background: #D4D4D4;
+	font-size: 1.5em;
+	margin: 5px 2px;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+#projectsIntro{
 	background-color: #B1B1B1;
 	margin-bottom: 30px;
 	padding: 20px 0;
 	font-size: 1.1em;
 }
 
-#projects h1{
+#projectsIntro h1{
 	margin: 15px 0;
 }
 
 .project{
+	margin-bottom: 30px;
+	background-color: white;
 	font-size: 1.1em;
 }
 
@@ -69,17 +52,9 @@ img{
 	border-radius: 5px;
 }
 
-#skills{
-	padding: 40px 0;
-	/*background-color: red;*/
-}
-
-#skills li{
-	background: #D4D4D4;
-	font-size: 1.5em;
-	margin: 5px 2px;
-	padding: 5px 10px;
-	border-radius: 5px;
+#contact{
+	padding: 20px 0;
+	border-top: 5px solid #B1B1B1 ;
 }
 
 footer {
@@ -88,7 +63,12 @@ footer {
    text-align: center;
 }
 
-#contact{
-	padding: 20px 0;
-	border-top: 5px solid #B1B1B1 ;
+
+@media only screen and (max-width: 991px) {
+	h2{
+		margin-bottom: 20px;
+	}
+	img{
+		margin-bottom: 15px;
+	}
 }
