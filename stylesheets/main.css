@@ -1,4 +1,12 @@
 
+*{
+	font-family: 'Karla', sans-serif;
+}
+
+h1, h2{
+	font-family: 'Merriweather', serif;
+}
+
 .navbar {
     margin-bottom: 0;
 }
