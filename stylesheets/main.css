@@ -79,6 +79,11 @@ img{
 	border-top: 5px solid #4CAF50 ;
 }
 
+#contact h2{
+	font-family: 'Karla', sans-serif;
+}
+
+
 footer {
    background-color:#4CAF50;
    min-height: 50px;
