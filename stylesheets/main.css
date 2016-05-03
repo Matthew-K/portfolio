@@ -66,6 +66,11 @@ img{
 	color: #424743;
 }
 
+.project img{
+	  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.75);
+	  /*box-shadow: 2px 2px 7px rgba(66, 71, 67, 0.75);*/
+}
+
 .skillShowcase li{
 	background: #97C7C9;
 	font-size: 1em;
