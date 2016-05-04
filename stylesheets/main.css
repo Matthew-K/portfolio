@@ -11,9 +11,6 @@ h1, h2{
     margin-bottom: 0;
 }
 
-a{
-	color: #236E72;
-}
 
 
 a:hover{
@@ -31,6 +28,26 @@ img{
 	color: #fff;
 	padding: 50px 0;
 	font-size: 1.5em;
+}
+
+.icons{
+	font-size: 3.1em;
+}
+
+#intro a{
+	color: #fff;
+}
+
+#intro a:hover{
+	color: #CCC;
+}
+
+#intro a:active{
+	color: #B3B3B3;
+}
+
+#resume{
+	font-size: .3em;
 }
 
 #skills{
@@ -71,6 +88,10 @@ img{
 	  /*box-shadow: 2px 2px 7px rgba(66, 71, 67, 0.75);*/
 }
 
+.project a{
+	color: #236E72;
+}
+
 .skillShowcase li{
 	background: #97C7C9;
 	font-size: 1em;
@@ -84,9 +105,26 @@ img{
 	border-top: 5px solid #4CAF50 ;
 }
 
-#contact h2{
-	font-family: 'Karla', sans-serif;
+#contact img{
+	margin-top: -9px;
+	display: inline;
+	background-color: rgb(51, 122, 183);
+	width: 37px;
+	height: 37px;
 }
+
+#contact img:hover{
+	background-color: rgb(35, 110, 114);
+}
+
+#email{
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
+
+/*#contact a{
+	color: #97C7C9;
+}*/
 
 
 footer {
