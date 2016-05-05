@@ -31,7 +31,7 @@ img{
 }
 
 #intro a{
-	color: #B73393;
+	color: #B44E86;
 	text-decoration: underline;
 }
 
@@ -66,7 +66,7 @@ img{
 }
 
 #skills li{
-	background: #97C7C9;
+	background: #A9E2AD;
 	font-size: 1.5em;
 	margin: 5px 2px;
 	padding: 5px 10px;
@@ -98,11 +98,12 @@ img{
 }
 
 .project a{
-	color: #236E72;
+	color: #B44E86;
+	text-decoration: underline
 }
 
 .skillShowcase li{
-	background: #97C7C9;
+	background: #A9E2AD;
 	font-size: 1em;
 	margin: 5px 2px;
 	padding: 5px 10px;
@@ -117,13 +118,17 @@ img{
 #contact img{
 	margin-top: -9px;
 	display: inline;
-	background-color: rgb(51, 122, 183);
+	background-color: #B44E86;
 	width: 37px;
 	height: 37px;
 }
 
 #contact img:hover{
-	background-color: rgb(35, 110, 114);
+	background-color: #923F6D;
+}
+
+#contact img:active{
+	background-color: #81375F;
 }
 
 #email{
@@ -131,9 +136,17 @@ img{
 	margin-bottom: 20px;
 }
 
-/*#contact a{
-	color: #97C7C9;
-}*/
+#contact a{
+	color: #B44E86;
+}
+
+#contact a:hover{
+	color: #923F6D;
+}
+
+#contact a:active{
+	color: #81375F;
+}
 
 
 footer {
