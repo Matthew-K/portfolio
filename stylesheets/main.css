@@ -27,22 +27,31 @@ img{
 	background-color: #4CAF50;
 	color: #fff;
 	padding: 50px 0;
-	font-size: 1.5em;
+	font-size: 1.4em;
+}
+
+#intro a{
+	color: #B73393;
+	text-decoration: underline;
+}
+
+#intro img{
+	margin-top: 30px;
 }
 
 .icons{
 	font-size: 3.1em;
 }
 
-#intro a{
+#intro .icons a{
 	color: #fff;
 }
 
-#intro a:hover{
+#intro .icons a:hover{
 	color: #CCC;
 }
 
-#intro a:active{
+#intro .icons a:active{
 	color: #B3B3B3;
 }
 
@@ -140,5 +149,8 @@ footer {
 	}
 	img{
 		margin-bottom: 15px;
+	}
+	#intro img{
+		margin-top: 0;
 	}
 }

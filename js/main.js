@@ -1,4 +1,4 @@
-console.log("hello");
+
 // Scroll Spy Speed 
 $(".navbar-nav li a[href^='#']").on('click', function(e) {
    // prevent default anchor click behavior
