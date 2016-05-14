@@ -38,7 +38,9 @@ h2{
 	margin: 0 auto;
 	display: block;
 	width: 55%;
+	/*border: 2px solid #fff;*/
 	box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.75)
+
 }
 
 #introDescription{
@@ -70,13 +72,11 @@ h2{
 /*---------------------*/
 
 #skills{
-	padding: 40px 0;
-	/*color: #424743;*/
-	/*background: #fff;*/
+	padding: 20px 0 30px 0;
 }
 
 #skills li{
-	background: #A9E2AD;
+	background: #C8E6C9;
 	font-size: 1.3em;
 	margin: 5px 2px;
 	padding: 5px 10px;
@@ -88,9 +88,7 @@ h2{
 /*---------------------*/
 
 #projectsIntro{
-	/*background-color: #4CAF50;*/
-	/*color: #fff;*/
-	margin-bottom: 30px;
+	border-top: 2px solid #A5D6A7;
 	padding: 20px 0;
 }
 
@@ -120,7 +118,7 @@ h2{
 }
 
 .skillShowcase li{
-	background: #A9E2AD;
+	background: #C8E6C9;
 	margin: 5px 2px;
 	padding: 5px 10px;
 	border-radius: 3px;
@@ -131,28 +129,13 @@ h2{
 /*---------------------*/
 
 #contact{
-	padding: 20px 0;
-}
-
-#contact img{
-	margin-top: -9px;
-	display: inline;
-	background-color: #B44E86;
-	width: 30px;
-	height: 30px;
-}
-
-#contact img:hover{
-	background-color: #923F6D;
-}
-
-#contact img:active{
-	background-color: #81375F;
+	border-top: 2px solid #A5D6A7;
+	padding: 15px 0 20px 0;
 }
 
 #email{
 	font-size: 1.3em;
-	margin-bottom: 20px;
+	margin: 15px 0 10px 0;
 }
 
 #contact .icons{
@@ -169,6 +152,28 @@ h2{
 
 #contact a:active{
 	color: #81375F;
+}
+
+/*Goodreads icon*/
+#contact img{
+	margin-top: -9px;
+	display: inline;
+	background-color: #B44E86;
+	width: 30px;
+	height: 30px;
+}
+
+/*Goodreads icon*/
+#contact img:hover{
+	background-color: #923F6D;
+}
+/*Goodreads icon*/
+#contact img:active{
+	background-color: #81375F;
+}
+
+div .icons{
+	margin-bottom: 10px;
 }
 
 
